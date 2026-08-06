@@ -1,0 +1,38 @@
+@theme {
+  /* Brand */
+  --color-primary: #081a34;
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #d72638;
+  --color-secondary-foreground: #ffffff;
+
+  --color-accent: #f59e0b;
+
+  /* Neutral */
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+
+  --color-muted: #e2e8f0;
+
+  /* Text */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+
+  /* States */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #dc2626;
+
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  /* Shadows */
+  --shadow-card: 0 10px 25px rgb(0 0 0 / 0.08);
+  --shadow-hover: 0 20px 40px rgb(0 0 0 / 0.12);
+
+  /* Layout */
+  --container-width: 1280px;
+}

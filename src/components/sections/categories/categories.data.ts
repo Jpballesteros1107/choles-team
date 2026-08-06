@@ -1,0 +1,58 @@
+import { Category } from "./category.types";
+
+export const categories: Category[] = [
+  {
+    id: 1,
+    name: "U10",
+    minAge: 8,
+    maxAge: 10,
+    gender: "Mixto",
+    image: "/images/categories/u10.jpg",
+    description: "Iniciación deportiva y desarrollo de habilidades básicas.",
+  },
+  {
+    id: 2,
+    name: "U12",
+    minAge: 10,
+    maxAge: 12,
+    gender: "Mixto",
+    image: "/images/categories/u12.jpg",
+    description: "Fortalecimiento técnico y trabajo en equipo.",
+  },
+  {
+    id: 3,
+    name: "U14",
+    minAge: 12,
+    maxAge: 14,
+    gender: "Masculino",
+    image: "/images/categories/u14m.jpg",
+    description: "Competencia y desarrollo físico.",
+  },
+  {
+    id: 4,
+    name: "U14",
+    minAge: 12,
+    maxAge: 14,
+    gender: "Femenino",
+    image: "/images/categories/u14f.jpg",
+    description: "Competencia y crecimiento deportivo.",
+  },
+  {
+    id: 5,
+    name: "U16",
+    minAge: 14,
+    maxAge: 16,
+    gender: "Masculino",
+    image: "/images/categories/u16.jpg",
+    description: "Preparación para alto rendimiento.",
+  },
+  {
+    id: 6,
+    name: "Mayores",
+    minAge: 17,
+    maxAge: null,
+    gender: "Libre",
+    image: "/images/categories/mayores.jpg",
+    description: "Categoría competitiva para jugadores mayores.",
+  },
+];
