@@ -1,34 +1,31 @@
 export const navigation = [
   {
     title: "Inicio",
-    href: "/",
+    href: "/#inicio",
   },
   {
     title: "Nosotros",
-    href: "/about",
+    href: "/#about",
   },
   {
     title: "Categorías",
-    href: "/categories",
+    href: "/#categories",
   },
   {
     title: "Entrenadores",
-    href: "/coaches",
-  },
-  {
-    title: "Partidos",
-    href: "/matches",
-  },
-  {
-    title: "Noticias",
-    href: "/news",
+    href: "/#coaches",
   },
   {
     title: "Galería",
-    href: "/gallery",
+    href: "/#gallery",
   },
   {
-    title: "Contacto",
-    href: "/contact",
+    title: "Noticias",
+    href: "/#news",
   },
+
+  {
+    title: "Contacto",
+    href: "/#contacto",
+  }
 ];

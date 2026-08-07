@@ -1,39 +1,33 @@
 import { Container } from "@/components/shared/Container";
 
-import { GalleryGrid } from "./GalleryGrid";
-import { GalleryCTA } from "./GalleryCTA";
-import { GalleryStats } from "./GalleryStats";
+import { NewsGrid } from "./NewsGrid";
 
-export function Gallery() {
+export function News() {
   return (
     <section
-      id="gallery"
-      className="bg-[#EEF3FB] py-20 lg:py-28"
+      id="news"
+      className="bg-white py-20 lg:py-28"
     >
       <Container>
 
         <div className="mx-auto mb-16 max-w-3xl text-center">
 
           <span className="font-semibold uppercase tracking-[0.3em] text-[#D71920]">
-            Galería
+            Últimas Noticias
           </span>
 
           <h2 className="mt-4 font-heading text-5xl uppercase text-[#071A3D] md:text-6xl">
-            Vive la pasión del baloncesto
+            Mantente informado
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Revive nuestros entrenamientos, partidos, torneos y momentos más
-            importantes dentro y fuera de la cancha.
+            Conoce las últimas novedades, competencias, entrenamientos y
+            actividades del Club Choles Team.
           </p>
 
         </div>
 
-        <GalleryGrid />
-
-        <GalleryStats />
-
-        <GalleryCTA />
+        <NewsGrid />
 
       </Container>
     </section>

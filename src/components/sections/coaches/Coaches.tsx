@@ -17,11 +17,11 @@ export function Coaches() {
     >
       <Container>
         <div className="mx-auto mb-20 max-w-3xl text-center">
-          <span className="font-semibold uppercase tracking-[0.3em] text-secondary">
+          <span className="font-semibold uppercase tracking-[0.3em] text-[#D71920]">
             Equipo Técnico
           </span>
 
-          <h2 className="mt-4 font-heading text-5xl uppercase text-primary md:text-6xl">
+          <h2 className="mt-4 font-heading text-5xl uppercase text-[#071A3D] md:text-6xl">
             Conoce a nuestros entrenadores
           </h2>
 
